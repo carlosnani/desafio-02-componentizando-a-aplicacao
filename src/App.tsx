@@ -81,7 +81,7 @@ export function App() {
         <header>
           <span className="category">Categoria:<span> {selectedGenre.title}</span></span>
         </header>
-
+            
         <main>
           <div className="movies-list">
             {movies.map(movie => (
